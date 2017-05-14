@@ -1,0 +1,79 @@
+baseurl = "https://gainesvillestreetrods.com/"
+languageCode = "en-us"
+title = "Gainesville Street Rods"
+canonifyurls = true
+theme = "bleak"
+paginate = 9
+
+PygmentsStyle = "paraiso-dark"
+PygmentsUseClasses = false
+PygmentsCodeFences = true
+
+SectionPagesMenu = "Main"
+
+[params]
+  # Shown in the home page
+  # Bleak theme params
+  Subtitle = "Talkin' Cars Under the Stars"
+  cover = "/images/cover.jpg"
+  custom_css  = ["css/gmaps.css"]
+  logo = "https://en.gravatar.com/userimage/3950362/7328d281bd6d2958aaa1d970b717f283.jpg?size=32"
+
+  # [params.author]
+  #   firstName = "Bjorn"
+  #   lastName = "Stange"
+  #   gender = "male"
+  #   userName = "Bjorn248"
+  #   website = "http://zenithar.org"
+  #   facebook = "Gainesville-Street-Rods-147870051925669"
+
+  # Blackburn theme params
+  subtitle = "Talkin' Cars Under the Stars"
+  brand = "GSR"
+  googleAnalytics = "Your Google Analytics tracking ID"
+  # CSS name for highlight.js
+  dateFormat = "02 Jan 2006, 15:04"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 1
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Events"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 2
+    url = "/events/"
+    identifier = "events"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 3
+    url = "/contact/"
+    identifier = "contact"
+  [[menu.main]]
+    name = "Membership"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 4
+    url = "/membership/"
+    identifier = "membership"
+
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  facebook = "Gainesville-Street-Rods-147870051925669/"
+
+# SNS photo/video sharing
+  # instagram = "*"
+  # flickr = "*"
