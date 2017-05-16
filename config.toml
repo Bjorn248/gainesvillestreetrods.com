@@ -2,7 +2,7 @@ baseurl = "https://gainesvillestreetrods.com/"
 languageCode = "en-us"
 title = "Gainesville Street Rods"
 canonifyurls = true
-theme = "bleak"
+theme = "hugo-theme-bleak"
 paginate = 9
 
 PygmentsStyle = "paraiso-dark"
