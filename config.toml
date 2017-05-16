@@ -1,4 +1,4 @@
-baseurl = "https://gainesvillestreetrods.com/"
+baseurl = "http://www.gainesvillestreetrods.com.s3-website.us-east-2.amazonaws.com/"
 languageCode = "en-us"
 title = "Gainesville Street Rods"
 canonifyurls = true
