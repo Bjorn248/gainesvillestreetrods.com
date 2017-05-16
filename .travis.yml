@@ -1,0 +1,23 @@
+language: go
+go:
+- 1.x
+install:
+- go get github.com/spf13/hugo
+script:
+- hugo
+deploy:
+    provider: s3
+    access_key_id: $AWS_ACCESS_KEY # Declared in travis build settings
+    secret_access_key: $AWS_SECRET_KEY # Declared in travis build settings
+    bucket: www.gainesvillestreetrods.com
+    cache_control: "max-age=604800"
+    skip_cleanup: true
+    region: "us-east-2"
+    local_dir: public
+    detect_encoding: true
+branches:
+    only:
+        - master
+notifications:
+    email:
+        on_failure: always
