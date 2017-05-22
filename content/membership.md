@@ -5,7 +5,7 @@ title = "Club Membership Information"
 
 ## Monthly Club Member's Meeting
 ### Time
-5:30 PM for Dinner, 7 PM for Club Activities
+Second Thursday of Every Month 5:30 PM for Dinner, 7 PM for Club Activities
 
 ### Place
 Sal's Place - 5109 NW 39th Ave Gainesville, FL 32606
@@ -27,4 +27,6 @@ Single Membership - $20
 Couple Membership - $30
 
 ### Application Form
-TODO: Add URL to Form here
+[Word Document](../GSR_Application.doc)
+
+[PDF](../GSR_Application.pdf)
